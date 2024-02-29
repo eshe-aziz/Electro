@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(221, 167, 176);
+}
+
+
+#page{
+    background-color: rgb(252, 250, 247);
+    display: flex;
+    justify-content: center;
+    border: solid 3px;
+    margin: 80px 80px;
+    border: 3px none;
+    border-radius: 30px;
+}
+
+button{
+    width: 20%;
+    background-color: rgb(18, 57, 231);
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+img{
+    width: 70%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+#picture{
+    float: right;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    padding-left: 20px;
+  }
+
+
+#form{
+    display: grid;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-right: 40px;
+    margin-top: 50px;
+    padding: 10px 50px;
+}
+
+#phone{
+    width: 90%;
+    margin-left: 5px;
+}
+
+.grid-container {
+    display: flex;
+    background-color: #ebecee;
+    
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    text-align: right;
+  }
+
+  #form1{
+    background-color: rgb(247, 206, 219);
+    max-width: 800px;
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-right: 40px;
+    margin-top: 50px;
+    padding: 10px 50px;
+}
+
+#picture1{
+    margin-right: 15px;
+    width: 90%;
+    display: flex;
+  }
+
+#form2{
+  background-color: #fadede;
+  border: none 3px;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-right: 40px;
+  margin-top: 50px;
+  padding: 10px 50px;
+}
+
+
+
+  #form3{
+    background-color: #fadede;
+    border: none 3px;
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-right: 40px;
+    margin-top: 50px;
+    padding: 10px 50px;
+    border-bottom: 1px solid;
+    border-color: gray;
+}
+
+
+#form4{
+  display: flex;
+  max-width: 800px;
+  padding: 10px 50px;
+}
+
+
+input{
+  width: 50%;
+}
+
+.container{
+  display: flex;
+  padding-left: 40%;
+  justify-content: space-evenly;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row1{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  display: flex;
+  flex: content;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 80%;
+  padding-left: 150px;
+}
+
+.row2{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  display: flex;
+  flex: content;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 60%;
+  padding-left: 300px;
+}
+
+h4{
+color: red;
+}
