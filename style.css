@@ -1,7 +1,28 @@
 body{
-    background-color: rgb(221, 167, 176);
+    background-color: rgb(248, 214, 220);
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1px;
+  padding-left: 600px;
+  overflow: hidden;
+  background-color: #fde8e8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(141, 134, 134);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 #page{
     background-color: rgb(252, 250, 247);
@@ -176,3 +197,13 @@ input{
 h4{
 color: red;
 }
+
+
+#nav{
+display: flex;
+gap: 20px;
+padding: 15px 200px;
+float: right;
+color: gray;
+}
+
